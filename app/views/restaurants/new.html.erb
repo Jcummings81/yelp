@@ -1,0 +1,14 @@
+<h1>New Restaurant</h1>
+<%= form_for @Restaurant do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    
+    <%= f.label :rank %>
+    <%= f.text_field :rank %>
+
+    <%= f.label :like %>
+    <%= f.text_field :like %>
+
+    <%= f.label :comments %>
+    <%= f.text_field :comments %>
+<% end %>
